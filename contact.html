@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body id="contactbody">
+
+    <header id="header">
+        <a>
+            <img id="image-logo" src="./images/logo.svg"/>
+        </a>
+        <nav>
+            <div>
+                <label for="mobile-nav">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </label>
+                <input type="checkbox" name="mobile-nav" id="mobile-nav">
+                <ul class="grid">
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./register.html">
+                            Register
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./login.html">
+                            Login
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./photos.html">
+                            Photos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="./enviromenteffect.html">Impact On Enviroment</a>
+                    </li>
+                    <li>
+                        <a href="./solutions.html">Solutions</a>
+                    </li>
+                    <li>
+                        <a href="./donation.html">Donation</a>
+                    </li>
+                    <li>
+                        <a href="./process.html">Process</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div>
+        <h1>Contact Us</h1>
+    </div>
+
+    <form method="get" action="./thankyou.html">
+        <fieldset>
+            <legend class="enterdetails">Enter your details:</legend>
+            <div class="input-group">
+            First Name: <input class="textboxfix" class="groupfix" type="text" name="firstName" /><br/> 
+            Last Name: <input class="textboxfix" class="groupfix" type="text" name="lastName" /><br/>
+            Subject: &nbsp
+            <select name="subject" class="groupfix">
+                <option value="misleading-information" selected="true">Misleading Information</option>
+                <option value="corrupted-image">Corrputed Image</option>
+                <option value="corrupted-link">Corrputed Link</option>
+                <option value="Other">Other</option>
+            </select><br/>
+            Gender: <br/>
+            <input class="genderselection" type="radio" name="gender" value="male"> Male &nbsp
+            <input class="genderselection" type="radio" name="gender" value="female"> Female<br/>
+            <input class="submit" type="submit" value="Send">
+            </div>
+        </fieldset>
+    </form>
+    
+    <footer>
+        <p>By Ido Simantov and Tomer Mendelovich &copy; 2023</p>
+    </footer>
+
+</body>
+
+</html>

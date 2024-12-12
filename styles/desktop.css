@@ -1,0 +1,187 @@
+@media screen and (min-width: 40em) {
+    #header ul {
+        text-align: left;
+        align-items: left;
+        margin-right:1em;
+        display: grid;
+        opacity: 1;
+    }
+
+    label[for="mobile-nav"]{
+        display: none;
+    }
+
+    /*העמודים האחרים*/
+.grid {
+    grid-template-areas: 
+    "header header header"
+    "section section section"
+    "footer footer footer";
+}
+
+
+/*דף הבית*/
+.grid {
+    grid-template-areas: 
+    "homeheader homeheader homeheader"
+    "homehero homehero homehero"
+    "homemain homemain homemain"
+    "homefooter homefooter homefooter";
+}
+
+header {
+    grid-area: header;
+    background: rgb(2, 0, 36);
+    background: radial-gradient(31.77% 5346.97% at 51.35% 100%, #04D6FB 0%, #033FB0 88.85%);
+    padding-block: 1em;
+}
+
+section {
+    grid-area: section;
+}
+
+footer {
+    grid-area: footer;
+    background: rgb(13, 0, 255);
+    background: radial-gradient(31.77% 5346.97% at 51.35% 100%, #04D6FB 0%, #033FB0 88.85%);
+    padding-block: 1em;
+    color: white;
+}
+
+fieldset {
+    line-height: 2.69;
+}
+
+form {
+    line-height: 10;
+}
+
+#header {
+    grid-area: homeheader;
+}
+
+#hero {
+    grid-area: homehero;
+}
+
+#main {
+    grid-area: homemain;
+}
+
+#footer {
+    grid-area: homefooter;
+}
+
+header ul {
+    opacity: 1;
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    text-align: center;
+}
+
+body{
+    line-height: 2.9;
+}
+
+#body{
+    line-height: 2.9;
+}
+
+#contactbody {
+    line-height: 2.9;
+    color: #033fb0;
+}
+
+#image-logo {
+    width: 58%;
+}
+
+#header{
+    display: grid;
+    grid-template-areas:'logo nav nav nav nav nav nav';
+    grid-template-columns: repeat(6, 1fr);
+    padding: 0;
+}
+
+#header > a {grid-area:logo;}
+
+#header > a {
+    width: 100%;
+    padding-top: 3.5em;
+}
+
+#header > nav {grid-area: nav;}
+
+#header > nav {
+    padding: 1em;
+}
+
+#gallery {
+    height: 600px;
+}
+
+#gapfixheight {
+    line-height: 10;
+}
+
+#parafix {
+    line-height: 4;
+}
+
+#thankstext {
+    line-height: 3;
+}
+
+#profileheight {
+    line-height: 0;
+}
+
+.aboutfix {
+    line-height: 2.68;
+}
+
+.solutionsfix {
+    line-height: 2.97;
+}
+
+.processfix {
+    line-height: 2.38;
+}
+
+.donationfix {
+    font-size: 2.7em;
+    line-height: 1.9;
+}
+
+.envirofix {
+    line-height: 2.83;
+}
+
+#lineheight-fix {
+    line-height: 4.07;
+}
+
+.profile-information {
+    line-height: 3.02;
+}
+
+.enviroment-photos{display: block;}
+
+
+.enviroment-photos p{
+    font-size: 23px;
+    margin: 1em;
+}
+
+.photos-size {
+    width: 50%;
+}
+
+#fieldsetfix {
+        line-height: 3.4;
+}
+}
